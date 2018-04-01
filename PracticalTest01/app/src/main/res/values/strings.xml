@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PracticalTest01</string>
+    <string name="editLeft">0</string>
+    <string name="editRight">0</string>
+    <string name="centerButton">Navigate to secondary Activity</string>
+    <string name="centerButtonTwo">You just clicked to secActivity</string>
+    <string name="pressMe">Press Me!</string>
+    <string name="pressMeToo">Press Me, Too!</string>
+    <string name="title_activity_practical_test01_secondary">PracticalTest01SecondaryActivity
+    </string>
+    <string name="Sum">Suma</string>
+    <string name="okButton">OK</string>
+    <string name="cancelButton">Cancel</string>
+
+</resources>

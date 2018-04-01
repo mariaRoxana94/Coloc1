@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="practicaltest01.eim.systems.cs.pub.ro.practicaltest01.view.PracticalTest01MainActivity">
+
+    <Button
+        android:id="@+id/center_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/centerButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:id="@+id/editleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/center_button"
+        android:inputType="number"
+        android:enabled="false"
+        android:saveEnabled="false"
+        android:gravity="center"
+        android:ems="7"
+        android:text="@string/editLeft"/>
+
+    <EditText
+        android:id="@+id/editright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/center_button"
+        android:inputType="number"
+        android:enabled="false"
+        android:saveEnabled="false"
+        android:gravity="center"
+        android:ems="7"
+        android:text="@string/editRight"/>
+
+    <Button
+        android:id="@+id/press_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pressMe"
+        android:layout_alignLeft="@+id/editleft"
+        android:layout_alignRight="@+id/editleft"
+        android:layout_below="@+id/editleft"
+        />
+
+    <Button
+        android:id="@+id/press_me_too"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pressMeToo"
+        android:layout_alignLeft="@+id/editright"
+        android:layout_alignRight="@+id/editright"
+        android:layout_below="@+id/editright"
+        />
+
+</RelativeLayout>
